@@ -1,4 +1,4 @@
-package hashhmapp;
+
 import java.util.HashMap;
 public class firstHash {
     public static void main(String[] args) {
