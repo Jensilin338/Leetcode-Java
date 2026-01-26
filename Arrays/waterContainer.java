@@ -1,3 +1,4 @@
+//brute force method
 class Solution {
     public int maxArea(int[] height) {
         int maxwater=0;
