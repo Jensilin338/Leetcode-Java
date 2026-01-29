@@ -1,7 +1,9 @@
 import java.util.Arrays;
-import java.util.*;
-class Solution {
+class Solutionn {
     public String longestCommonPrefix(String[] strs) {
+        if(strs==null || strs.length==0){
+            return "";
+        }
         StringBuilder result = new StringBuilder();
         Arrays.sort(strs);
         char[] first = strs[0].toCharArray();
@@ -14,10 +16,11 @@ class Solution {
         return result.toString();
     }
 }
-public class prefix {
+public class prefixxx {
  public static void main(String[] args) {
-    Solution sol = new Solution();
-    int result1 = sol.result;
-    System.out.println(result1);
+    Solutionn sol = new Solutionn();
+    String[] strs = {"Flower","Flow","FLown"};
+    String result1 = sol.longestCommonPrefix(strs);
+    System.out.print(result1);
  }   
 }
